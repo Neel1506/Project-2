@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Small devices (phones, less than 640px) */
+@media (max-width: 639px) {
+  body {
+    font-size: 14px;
+  }
+
+
+}
+
+/* Medium devices (tablets, 640px and up) */
+@media (min-width: 640px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+#main {
+  background: radial-gradient(#FFA500, #FF4500);
+}
+
+.navLinks li {
+  color: white;
+  font-weight: 600;
+  list-style-type: none;
+  font-size: 1.2rem;
+  margin: auto 1px;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.navLinks li:hover {
+  transition: all 0.8s;
+  color: #ff8800;
+  background-color: #ffffffab;
+  cursor: pointer;
+}
+
+.orange-leaf {
+  rotate: 110deg;
+}
+
+.twoleft svg {
+  transform: rotateX('110deg');
+  /* margin-top: 50vh; */
+}
+
+.two {
+  /* background: linear-gradient(45deg, #00c6ff, #0072ff) !important; */
+
+}
